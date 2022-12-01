@@ -3,9 +3,11 @@
 ## Branching
 PI DEV 팀은 Lightweight Branching Model 에 착안하여 협업 및 배포 프로세스를 만들어나갈 예정입니다.
 
-- **Feature Branch**: 새로운 기능을 추가하는 경우, feature/[기능-세부-사항] 의 형태로 develop 브랜치에서 분기합니다. Fix 브랜치를 따로 생성하지 않는 만큼 브랜치의 이름은 작업의 내용이 잘 드러나게끔 작성하도록 합니다.
-- **Develop Branch**: feature 브랜치에서 작업한 후 테스팅을 거친 뒤, develop 브랜치로 PR 을 날립니다. 빌드에 실패하거나, 테스트를 거치지 않은 경우 PR 을 닫아주세요.
-- **Master Branch**: master 브랜치로 push 할 정도로 검증이 된 코드만 master 브랜치로 push 합니다. Master 브랜치로의 PR 과 merge 는 대면 정기 미팅에서 충분한 검토를 거친 뒤, 수행하도록 합니다.
+
+- Feature Branch: 새로운 기능을 추가하는 경우, feat/[기능이름-n] 의 형태로 develop 브랜치에서 분기합니다. 기능의 이름은 조금 길더라도 세부적으로 적습니다. 기능을 추가하는 행위와 추가한 기능을 고치는 행위 모두 feature 브랜치에서 일어나기 때문에 브랜치 이름에서 작업의 스코프를 짐작할 수 있도록 합니다.
+- Develop Branch: feature 브랜치에서 작업한 후 테스팅을 거친 뒤, develop 브랜치로 PR 을 날립니다. 빌드에 실패하거나, 테스트를 거치지 않은 경우 PR 을 닫아주세요.
+- Master Branch: master 브랜치로 push 할 정도로 검증이 된 코드만 master 브랜치로 push 합니다. Master 브랜치로의 PR 과 merge 는 대면 정기 미팅에서 충분한 검토를 거친 뒤, 수행하도록 합니다.
+
 
 ## Commit Message Rules
 아래와 같은 카테고리로 커밋 메시지를 남기도록 합니다.

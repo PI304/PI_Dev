@@ -25,8 +25,8 @@ PI DEV 팀은 Lightweight Branching Model 에 착안하여 협업 및 배포 프
 - 리뷰어로 지정을 받은 사람은 12시간 안에 코멘트를 남기도록 합니다.
 - 본인이 생성한 PR 에 대해서는 본인이 머지를 수행하도록 합니다.
 - PR 의 단위는 light 하게 설계합니다.
-- Feature 브랜치에서 Develop 브랜치로의 merge 는 **일반 merge** 로 진행합니다.
-- Develop 브랜치에서 Master 브랜치로의 merge 는 **squash and merge** 로 진행하며, merge 시 title 은 feature 의 이름을 포함하도록 합니다.
+- Feature 브랜치에서 Develop 브랜치로의 merge 는 **squash and merge** 로 진행합니다.
+- Develop 브랜치에서 Master 브랜치로의 merge 는 **rebase and merge** 로 진행합니다. (별도 커밋 생성 필요없음)
 
 ## Testing
 - **Github Action** 을 사용하여 PR 생성 시 빌드 및 테스트를 진행합니다. 이 테스트를 통과한 PR 만을 merge 합니다.
